@@ -5,18 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Here goes the index.</title>                           <!-- Give Title -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">  <!-- Insert StyleSheet -->
+    <link rel="stylesheet" type="text/css" href="test-style.css">  <!-- Insert StyleSheet -->
     <link rel="icon" href="cool-icon.png">                    <!-- Insert Icon -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 
-    <center> <p class="h1"> It's going to be a great site :-) 
-        <br> But I haven't put anything here yet ;-;
-        <br> However I have good news for you: more interesting stuff will definitely appear later!
-    </p> </center>
-
-    <center> <canvas id="myCanvas" width="800" height="800">
+    <div class="orange-box"></div>
+    <div class="blue-box"></div>
+    <canvas id="myCanvas" width="800" height="800">
         <script type="text/javascript">
 
             function drawSubTree( ctx, depth, nLevels )
@@ -87,14 +84,7 @@
             context.translate(200,250);
             drawSubTree( context, 10, 10 );
         </script>
-    </canvas> </center>
-
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <center> <p class="surprise"> <a href="https://youtu.be/dQw4w9WgXcQ">Click this if you want something interesting, like, right now.</a> </p> </center>
-    <!-- <p> Please enter your name <p>
-    <input type="text" id="name-field"> -->
-
-    <script type="text/javascript" src="interactions.js"></script>    <!-- Insert JQuery Script -->
+    </canvas>
 
 </body>
 </html>

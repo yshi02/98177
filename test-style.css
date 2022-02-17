@@ -1,0 +1,23 @@
+.orange-box {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    opacity: 60%;
+    position: relative;
+    margin: 0;
+}
+
+.blue-box {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    opacity: 60%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+}
+
+body {
+    margin: 0px;
+}
