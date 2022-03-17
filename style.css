@@ -1,10 +1,42 @@
+* {
+	margin: 0;
+    padding: 0;
+}
+
 .h1 {
-    color:deepskyblue;
+    color: slategray;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size:x-large;
+    font-size: x-large;
 }
 
 .surprise {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size:xx-small;
+    font-size: xx-small;
+}
+
+.surprise:hover {
+    background: grey;
+}
+
+.nav-bar {
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    background-color: slategray;
+    margin: 0;
+}
+
+.nav-bar > .tab {
+	width: 100%;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	color: snow;
+	font-family: 'Arial';
+	font-size: 18px;
+	line-height: 30px;
+	background-color: slategray;
+}
+
+.nav-bar > .tab:hover {
+    text-decoration: underline;
 }

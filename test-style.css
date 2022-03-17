@@ -18,6 +18,19 @@
     margin: 0;
 }
 
+.blue-box:active {
+    background:blue;
+}
+
+.blue-box:active::before {
+    content: "I am clicked";
+}
+
+.blue-box:hover {
+    width: 200px;
+    height: 200px;
+}
+
 body {
     margin: 0px;
 }
