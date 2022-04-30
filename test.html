@@ -9,14 +9,19 @@
     <link rel="icon" href="cool-icon.png">                    <!-- Insert Icon -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <script>
+    <!-- <script>
         window.Jquery || document.write('<script src="local"> <\/script>');
-    </script>
+    </script> -->
 </head>
+
+
 <body>
 
     <script>
-        $(".cool-class").hover(function() { $(this).css("color", "red"); });
+        $(document).ready(function() {
+            $(".cool-class").hover(function() {$(this).css('color', 'red'); });
+            $(".cool-class").click(function() {$(this).css("color", "black"); });
+        });
     </script>
 
     <div class=cool-class>

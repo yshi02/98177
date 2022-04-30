@@ -4,23 +4,20 @@
 }
 
 .h1 {
-    color: slategray;
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
 }
 
-.surprise {
+.h2 {
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: xx-small;
-}
-
-.surprise:hover {
-    background: grey;
+    font-size: large;
 }
 
 .nav-bar {
     position: fixed;
-    width: 15%;
+    width: 20%;
     height: 100%;
     background-color: slategray;
     margin: 0;
@@ -31,12 +28,38 @@
 	padding: 10px 0 10px 0;
 	text-align: center;
 	color: snow;
-	font-family: 'Arial';
-	font-size: 18px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 24px;
 	line-height: 30px;
 	background-color: slategray;
 }
 
 .nav-bar > .tab:hover {
     text-decoration: underline;
+}
+
+.main {
+    width: 80%;
+    margin-left: 20%;
+}
+
+.avatar {
+    display: block;
+    width: 15%;
+}
+
+.item {
+    padding: 20px;
+}
+
+.ongoing-construction {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: dimgray;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    text-align: center;
+    width: 15%;
 }
